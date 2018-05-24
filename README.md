@@ -7,8 +7,6 @@ Simple script to test AUR packages
 ./test.sh <pkgname> (--noconfirm)
 ```
 
-###### Use `--noconfirm` if you want to use the default options when installing the package
-
 ### Depencencies
 
   * Docker

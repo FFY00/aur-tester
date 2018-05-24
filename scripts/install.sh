@@ -17,4 +17,4 @@ pacman -Sy base-devel sudo binutils fakeroot yaourt --noconfirm
 
 # Install package
 su -c "yaourt -Sy $@" tester
-su -c "yaourt -Qi $@" tester
+su -c "yaourt -Qi $@ -noconfirm" tester
